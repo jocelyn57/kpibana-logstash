@@ -18,7 +18,7 @@ TWITTER_CONSUMER_KEY:
 TWITTER_CONSUMER_SECRET:
 TWITTER_OAUTH_TOKEN:
 TWITTER_OAUTH_SECRET:
-TWITTER_KEY_WORDS: Currently limited for one word.
+TWITTER_KEY_WORDS: Currently limited to one word.
 
 ## AWS configuration
 
@@ -38,4 +38,4 @@ docker run  -it -e TWITTER_CONSUMER_KEY='your consumer key' \
 -e AWS_REGION='eu-west-3' \
 -e AWS_ACCESS_KEY='your iam aws acces key' \
 -e AWS_ACCESS_SECRET='your iam aws acces secret' \
---name jocelyn57/logstash-aws-twitter:6.2
+--name jocelyn57/kpibana-logstash:6.2
